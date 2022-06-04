@@ -1,0 +1,21 @@
+div:not(.box, .hello-text), header, footer, main
+{
+    display: none !important;
+}
+body
+{
+    background: #FFFFFF !important;
+}
+.box
+{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+.hello-text {
+    background: #98bf21;
+    height: 100px;
+    width: 200px;
+    position: absolute;
+}
